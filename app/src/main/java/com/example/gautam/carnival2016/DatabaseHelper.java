@@ -54,6 +54,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Cursor res = db.rawQuery("select * from " + TABLE_NAME,null);
         return res;
     }
+
+
     public boolean updateData(String flat,String name, String contribution, String mobile){
 
         SQLiteDatabase db = this.getWritableDatabase();

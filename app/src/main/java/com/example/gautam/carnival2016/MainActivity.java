@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int which) {
                                 //do work
                                 String pass = input.getText().toString();
-                                String x = new String("karma");
+                                String x = new String("greenapple");
                                 if(pass.equals(x)){
                                     boolean isupdated=mydb.updateData(editflat.getText().toString(),editname.getText().toString(),editcont.getText().toString(),editph.getText().toString());
                                     if(isupdated==true){
@@ -262,7 +262,7 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int which) {
                                 //do work
                                 String pass = input.getText().toString();
-                                String x = new String("karma");
+                                String x = new String("greenapple");
                                 if(pass.equals(x)){
                                     uploadDataClass up = new uploadDataClass();
                                     up.execute("");
